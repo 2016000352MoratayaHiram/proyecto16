@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumen de Etiquetas HTML</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Resumen de Etiquetas HTML</h1>
+
+  <section>
+    <h2>1. Etiquetas Básicas</h2>
+    <p><strong>Etiqueta:</strong> <code>&lt;html&gt;</code> - Contenedor raíz del documento HTML.</p>
+    <p><strong>Etiqueta:</strong> <code>&lt;head&gt;</code> - Contiene metadatos.</p>
+    <p><strong>Etiqueta:</strong> <code>&lt;body&gt;</code> - Contenido visible de la página.</p>
+    <p><strong>Etiqueta:</strong> <code>&lt;title&gt;</code> - Título en la pestaña del navegador.</p>
+    <p><strong>Etiqueta:</strong> <code>&lt;p&gt;</code> - Párrafo de texto.</p>
+    <p><em>Ejemplo:</em></p>
+    <p>Este es un párrafo dentro del <code>&lt;body&gt;</code>.</p>
+  </section>
+
+  <section>
+    <h2>2. Etiquetas de Tablas</h2>
+    <p><strong>Etiqueta:</strong> <code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;td&gt;</code>, <code>&lt;th&gt;</code></p>
+    <p><em>Ejemplo:</em></p>
+    <table>
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+      </tr>
+      <tr>
+        <td>Carlos</td>
+        <td>18</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>3. Etiquetas de Listas</h2>
+    <p><strong>Etiqueta:</strong> <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code></p>
+    <p><em>Ejemplo Lista No Ordenada:</em></p>
+    <ul>
+      <li>Manzana</li>
+      <li>Banana</li>
+      <li>Uva</li>
+    </ul>
+    <p><em>Ejemplo Lista Ordenada:</em></p>
+    <ol>
+      <li>Primer paso</li>
+      <li>Segundo paso</li>
+      <li>Tercer paso</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>4. Etiquetas de Formularios</h2>
+    <p><strong>Etiqueta:</strong> <code>&lt;form&gt;</code>, <code>&lt;input&gt;</code>, <code>&lt;label&gt;</code>, <code>&lt;select&gt;</code>, <code>&lt;option&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;button&gt;</code></p>
+    <p><em>Ejemplo:</em></p>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre"><br><br>
+
+      <label for="comentario">Comentario:</label><br>
+      <textarea id="comentario" name="comentario" rows="4" cols="40"></textarea><br><br>
+
+      <label for="color">Color favorito:</label>
+      <select id="color" name="color">
+        <option value="rojo">Rojo</option>
+        <option value="azul">Azul</option>
+        <option value="verde">Verde</option>
+      </select><br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+</body>
+</html>
